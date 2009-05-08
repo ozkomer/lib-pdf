@@ -15,7 +15,7 @@ Vladimir Vasiltsov
 
 == Methods ==
 
-void Init(byte [ ] pdfFileData);
+void [Init](byte [ ] pdfFileData);
 
 byte[ ] GetImage(int pageNumber, ImageType imageType);
 
