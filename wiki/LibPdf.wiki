@@ -5,3 +5,12 @@ Convert pdf to PNG or BMP image.
 License GPL see copying
 Copyright from:
 Vladimir Vasiltsov
+
+= Constructors =
+
+[http://code.google.com/p/lib-pdf/w/edit/LibPdfBasicConstructor LibPdf();]
+[http://code.google.com/p/lib-pdf/w/edit/LibPdfByteArrayConstructor LibPdf(byte [] pdfFileData);]
+
+
+= Methods =
+
