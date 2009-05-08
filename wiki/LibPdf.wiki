@@ -23,8 +23,8 @@ byte[ ] [GetPNG](int pageNumber);
 
 == Properties ==
 
-int [http://code.google.com/p/lib-pdf/w/edit/LibPdfWidth Width] { get; set; }
+int [LibPdfWidth Width] { get; set; }
 
-int [http://code.google.com/p/lib-pdf/w/edit/LibPdfHeight Height] { get; set; }
+int [LibPdfHeight Height] { get; set; }
 
-int [http://code.google.com/p/lib-pdf/w/edit/LibPdfNumPages NumPages] { get; set; }
+int [LibPdfNumPages NumPages] { get; set; }
