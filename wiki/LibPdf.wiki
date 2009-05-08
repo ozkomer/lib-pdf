@@ -8,7 +8,7 @@ Vladimir Vasiltsov
 
 == Constructors ==
 
-[http://code.google.com/p/lib-pdf/w/edit/LibPdfBasicConstructor LibPdf]();
+[LibPdfBasicConstructor LibPdf]();
 
 [LibPdfByteArrayConstructor LibPdf](byte[ ] pdfFileData);
 
