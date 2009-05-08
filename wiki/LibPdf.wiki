@@ -15,11 +15,11 @@ Vladimir Vasiltsov
 
 == Methods ==
 
-void Init(array<unsigned char>^ pdfFileData);
+void Init(byte [ ] pdfFileData);
 
-array<unsigned char>^ GetImage(int pageNumber, ImageType imageType);
+byte[ ] GetImage(int pageNumber, ImageType imageType);
 
-array<unsigned char>^ GetPNG(int pageNumber);
+byte[ ] GetPNG(int pageNumber);
 
 == Properties ==
 
