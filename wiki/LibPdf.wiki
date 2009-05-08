@@ -6,11 +6,24 @@ License GPL see copying
 Copyright from:
 Vladimir Vasiltsov
 
-= Constructors =
+== Constructors ==
 
 [http://code.google.com/p/lib-pdf/w/edit/LibPdfBasicConstructor LibPdf();]
 
 [http://code.google.com/p/lib-pdf/w/edit/LibPdfByteArrayConstructor LibPdf](byte[ ] pdfFileData);
 
 
-= Methods =
+== Methods ==
+
+void Init(array<unsigned char>^ pdfFileData);
+
+array<unsigned char>^ GetImage(int pageNumber, ImageType imageType);
+
+array<unsigned char>^ GetPNG(int pageNumber);
+
+== Properties ==
+
+int Width { get; set; }
+int Height { get; set; }
+int NumPages { get; set; }
+
