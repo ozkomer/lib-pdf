@@ -6,4 +6,4 @@ GetImage method
 
 == See also ==
 
-[Init]
+[Init](byte[] pdfData) method.
