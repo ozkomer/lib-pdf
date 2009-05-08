@@ -24,6 +24,7 @@ array<unsigned char>^ GetPNG(int pageNumber);
 == Properties ==
 
 int Width { get; set; }
-int Height { get; set; }
-int NumPages { get; set; }
 
+int Height { get; set; }
+
+int NumPages { get; set; }
