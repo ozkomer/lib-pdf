@@ -1,0 +1,7 @@
+= LibPdf class =
+
+Convert pdf to PNG or BMP image.
+
+License GPL see copying
+Copyright from:
+Vladimir Vasiltsov
