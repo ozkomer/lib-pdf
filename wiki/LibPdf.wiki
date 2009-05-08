@@ -8,7 +8,7 @@ Vladimir Vasiltsov
 
 == Constructors ==
 
-[http://code.google.com/p/lib-pdf/w/edit/LibPdfBasicConstructor LibPdf();]
+[http://code.google.com/p/lib-pdf/w/edit/LibPdfBasicConstructor LibPdf]();
 
 [http://code.google.com/p/lib-pdf/w/edit/LibPdfByteArrayConstructor LibPdf](byte[ ] pdfFileData);
 
@@ -23,8 +23,8 @@ array<unsigned char>^ GetPNG(int pageNumber);
 
 == Properties ==
 
-int Width { get; set; }
+int [http://code.google.com/p/lib-pdf/w/edit/LibPdfWidth Width] { get; set; }
 
-int Height { get; set; }
+int [http://code.google.com/p/lib-pdf/w/edit/LibPdfHeight Height] { get; set; }
 
-int NumPages { get; set; }
+int [http://code.google.com/p/lib-pdf/w/edit/LibPdfNumPages NumPages] { get; set; }
